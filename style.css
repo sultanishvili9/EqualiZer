@@ -1,0 +1,532 @@
+body {
+  margin: 0 auto;
+  width: 375px;
+  height: 1945px;
+  font-family: "IBM Plex Sans";
+  background-color: #f2f2f2;
+}
+
+.background-img {
+  position: absolute;
+  top: -154px;
+}
+
+.background-img-tablet {
+  display: none;
+}
+
+.tablet-left-corner {
+  display: none;
+}
+
+.logo {
+  width: 146px;
+  height: 32px;
+  margin-top: 40px;
+  margin-left: 24px;
+}
+
+.phone-img {
+  margin: 68px 0 0 80px;
+  width: 209px;
+  height: 430px;
+  position: relative;
+}
+
+.black-ground {
+  margin-top: 166px;
+  width: 375px;
+  height: 600px;
+  border-radius: 12px;
+  position: absolute;
+  background-color: #191826;
+}
+
+.behind-phone {
+  margin-left: 48px;
+  width: 280px;
+  height: 420px;
+  position: absolute;
+}
+
+.desktop-background {
+  display: none;
+}
+
+.text-cont h2 {
+  margin: 64px 0 0 24px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.45px;
+  color: #191826;
+}
+
+.text-cont p {
+  margin: 20px 0 0 24px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+
+.orange-cont {
+  position: relative;
+  width: 399px;
+  height: 546px;
+  border-radius: 12px;
+  background-color: #fa7453;
+  padding-top: 24px;
+}
+
+.orange-cont h3 {
+  width: 302px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fcfaf9;
+  margin-left: 36px;
+}
+
+.orange-paragraph {
+  width: 302px;
+  height: 140px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fcfaf9;
+  margin: 12px 0 0 36px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-tag {
+  margin: 36px 0 0 42px;
+  display: inline;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  color: #fcfaf9;
+}
+
+.price-text {
+  margin: 45px 0 0 16px;
+  display: inline;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #fcfaf9;
+}
+
+.ios-cont {
+  margin: 32px 0 0 42px;
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  background-color: #191826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.ios-cont p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fcfaf9;
+  letter-spacing: -0.18px;
+}
+
+.android-cont {
+  margin: 16px 0 0 42px;
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  background-color: #fcfaf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.android-cont p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #191826;
+  letter-spacing: -0.18px;
+}
+
+.footer-equalizer {
+  margin: 86px 0 0 34px;
+}
+
+footer p {
+  width: 366px;
+  height: 79px;
+  margin: 32px 0 0 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+
+.email {
+  font-weight: 700;
+}
+
+.icon-cont {
+  display: flex;
+  margin: 64px 0 0 24px;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    height: 1781px;
+  }
+
+  .background-img {
+    display: none;
+  }
+
+  .background-img-tablet {
+    display: block;
+    position: absolute;
+    margin-top: -112px;
+    margin-left: -254px;
+  }
+
+  /* aqedan!!!!!!!!!!!!!!!!*/
+
+  .tablet-left-corner {
+    display: block;
+    position: absolute;
+    margin-left: 537px;
+  }
+
+  .logo {
+    margin-top: 61px;
+    margin-left: 39px;
+  }
+
+  .phone-img {
+    margin: 111px 0 0 97px;
+    width: 270px;
+    height: 556px;
+    position: relative;
+  }
+
+  .black-ground {
+    margin-top: 249px;
+    margin-left: 33px;
+    width: 696px;
+    height: 600px;
+    border-radius: 12px;
+    position: absolute;
+    background-color: #191826;
+  }
+
+  .behind-phone {
+    margin-left: 262px;
+    position: absolute;
+    margin-top: -31px;
+  }
+
+  .text-cont h2 {
+    margin: 95px 0 0 39px;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.73px;
+    width: 520px;
+    height: 192px;
+  }
+
+  .text-cont p {
+    margin: 28px 0 0 39px;
+    width: 514px;
+    height: 112px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .orange-cont {
+    margin-top: -270px;
+    margin-left: 272px;
+    position: relative;
+    width: 399px;
+    height: 546px;
+    background-color: #fa7453;
+  }
+
+  .orange-cont h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fcfaf9;
+    margin: 48px 0 0 48px;
+  }
+
+  .orange-paragraph {
+    margin: 12px 0 0 48px;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .price-tag {
+    margin: 36px 0 0 42px;
+    display: inline;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #fcfaf9;
+  }
+
+  .price-text {
+    margin: 45px 0 0 16px;
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #fcfaf9;
+  }
+
+  .ios-cont {
+    margin: 32px 0 0 42px;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: #191826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ios-cont p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fcfaf9;
+    letter-spacing: -0.18px;
+  }
+
+  .android-cont {
+    margin: 16px 0 0 42px;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: #fcfaf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .android-cont p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #191826;
+    letter-spacing: -0.18px;
+  }
+
+  .footer-equalizer {
+    margin: 64px 0 0 25px;
+  }
+
+  footer p {
+    width: 296px;
+    margin: 32px 0 0 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+  }
+
+  .email {
+    font-weight: 700;
+  }
+
+  .icon-cont {
+    display: flex;
+    margin-top: -7%;
+    margin-left: 629px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    height: 1832px;
+  }
+
+  .background-img {
+    display: none;
+  }
+
+  .desktop-background {
+    position: absolute;
+    display: block;
+    margin-top: -112px;
+    margin-left: -146px;
+  }
+
+  .background-img-tablet {
+    display: none;
+  }
+
+  /* aqedan!!!!!!!!!!!!!!!!*/
+
+  .tablet-left-corner {
+    display: block;
+    position: absolute;
+    margin-left: 1128px;
+    margin-top: -48px;
+  }
+
+  .logo {
+    margin-top: 61px;
+    margin-left: 166px;
+  }
+
+  .phone-img {
+    margin: 127px 0 0 283px;
+    width: 280px;
+    height: 606px;
+    position: relative;
+  }
+
+  .black-ground {
+    margin-top: 321px;
+    margin-left: 165px;
+    width: 1110px;
+    height: 600px;
+  }
+
+  .behind-phone {
+    margin-left: 336px;
+    position: absolute;
+    margin-top: -40px;
+  }
+
+  .text-cont h2 {
+    margin: 127px 0 0 165px;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    width: 1015px;
+    height: 176px;
+  }
+
+  .text-cont p {
+    margin: 40px 0 0 164px;
+    width: 825px;
+    height: 102px;
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .orange-cont {
+    margin-top: -330px;
+    margin-left: 734px;
+    position: relative;
+    width: 446px;
+    height: 625px;
+    background-color: #fa7453;
+  }
+
+  .orange-cont h3 {
+    width: 333px;
+    height: 52px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fcfaf9;
+    margin: 58px 0 0 54px;
+  }
+
+  .orange-paragraph {
+    margin: 22px 0 0 54px;
+    width: 333px;
+    height: 170px;
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .price-tag {
+    margin: 39px 0 0 54px;
+    display: inline;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #fcfaf9;
+  }
+
+  .price-text {
+    margin: 45px 0 0 16px;
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #fcfaf9;
+  }
+
+  .ios-cont {
+    margin: 46px 0 0 54px;
+    width: 333px;
+    height: 61px;
+    border-radius: 12px;
+  }
+
+  .android-cont {
+    margin: 16px 0 0 54px;
+    width: 333px;
+    height: 61px;
+  }
+
+  .footer-equalizer {
+    margin: 86px 0 0 166px;
+  }
+
+  footer p {
+    width: 306px;
+    height: 79px;
+    margin: -32px 0 0 450px;
+  }
+
+  .icon-cont {
+    display: flex;
+    margin-top: -5%;
+    margin-left: 1175px;
+    gap: 20px;
+  }
+
+  .ios-cont:hover {
+    cursor: pointer;
+    background-color: #66e2dc;
+  }
+
+  .android-cont:hover {
+    cursor: pointer;
+    background-color: #ffb964;
+  }
+}
